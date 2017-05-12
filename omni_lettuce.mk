@@ -40,3 +40,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=YU/YUPHORIA/YUPHORIA:5.1.1/LMY49J/YOG4PAS8A8:user/release-keys \
     PRIVATE_BUILD_DESC="YUPHORIA-user 5.1.1 LMY49J YOG4PAS8A8 release-keys"
 endif
+
+ PRODUCT_PACKAGES +=  \
+ SnapdragonCamera \
+ SnapdragonMusic \
+ Calendar \
+ Email \
+ Gallery2
