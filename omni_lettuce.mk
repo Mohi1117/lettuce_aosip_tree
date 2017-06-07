@@ -16,6 +16,7 @@ $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # must be before including omni part
 TARGET_BOOTANIMATION_SIZE := 640x362
