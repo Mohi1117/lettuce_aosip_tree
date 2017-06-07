@@ -17,6 +17,9 @@ $(call inherit-product, device/yu/lettuce/full_lettuce.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# must be before including omni part
+TARGET_BOOTANIMATION_SIZE := 640x362
+
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
