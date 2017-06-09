@@ -47,4 +47,6 @@ endif
  SnapdragonMusic \
  Calendar \
  Email \
- Gallery2
+ Gallery2 \
+ Messaging \
+ messaging
